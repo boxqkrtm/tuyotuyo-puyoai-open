@@ -1,2 +1,7 @@
-# tuyotuyo-puyoai-open
-puyo puyo tsu ai
+# tuyotuyo
+
+Puyopuyo tsu ai
+
+Ingame control removed
+
+controller emulation using https://github.com/ViGEm/ViGEmBus/releases

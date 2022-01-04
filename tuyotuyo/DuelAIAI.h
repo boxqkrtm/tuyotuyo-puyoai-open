@@ -1,0 +1,12 @@
+#pragma once
+#include <iostream>
+#include <random>
+#include <ctime>
+#include "Duel.h"
+#include "SaveAI.h"
+#include "PuyoConst.h"
+#include "Plan.h"
+#include "CrossFunc.h"
+using std::cout;
+using std::endl;
+void DuelAIAI();

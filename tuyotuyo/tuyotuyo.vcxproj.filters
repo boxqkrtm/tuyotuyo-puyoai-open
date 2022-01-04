@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Duel">
+      <UniqueIdentifier>{21e7481a-1f1d-4ba6-91ca-a7808d421b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Duel\DuelBase">
+      <UniqueIdentifier>{085533e1-ebf2-4afb-9c78-62fe06191ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AI">
+      <UniqueIdentifier>{6c0c44cd-8311-43c1-a57a-05d55da41b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Connector">
+      <UniqueIdentifier>{a9949e4c-d7c5-4a11-8616-c9c2c8cdbef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Connector\ConnectorBase">
+      <UniqueIdentifier>{92c58065-832c-44ec-9e7d-87e878d59355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CrossCompile">
+      <UniqueIdentifier>{47ff1419-f4ab-4530-890b-7796981b2108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AITool">
+      <UniqueIdentifier>{a4dce6a7-4f40-46e4-826e-38ca464ab201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Simulator">
+      <UniqueIdentifier>{e619cef1-2b95-4532-b96f-6fb400a00e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Constant">
+      <UniqueIdentifier>{2cbd7924-f976-4208-a69c-6c2b537a3efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PythonDll">
+      <UniqueIdentifier>{6c073417-553e-4108-a34a-09844f911585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KeyStroke">
+      <UniqueIdentifier>{bffad877-ccd1-445e-b793-037b81ec647d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AI\msv">
+      <UniqueIdentifier>{fbdcbe0a-cbf3-42e7-8c18-8f457a023c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AI\base">
+      <UniqueIdentifier>{c5a6808c-c283-4050-babe-00b52983fc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AITool\struct">
+      <UniqueIdentifier>{9f71b285-c866-447a-a27e-e35611175ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AI\tac">
+      <UniqueIdentifier>{a2d976ce-6eb4-4a7c-8cd7-245361932326}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tuyotuyo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelAIAI.cpp">
+      <Filter>소스 파일\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelPPTPC.cpp">
+      <Filter>소스 파일\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelToko.cpp">
+      <Filter>소스 파일\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossFunc.cpp">
+      <Filter>소스 파일\CrossCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="Detector.cpp">
+      <Filter>소스 파일\AITool</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanTest.cpp">
+      <Filter>소스 파일\AITool</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNet.cpp">
+      <Filter>소스 파일\AITool</Filter>
+    </ClCompile>
+    <ClCompile Include="Duel.cpp">
+      <Filter>소스 파일\Duel\DuelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>소스 파일\Duel\DuelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="XboxController.cpp">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemory.cpp">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoTsumo.cpp">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoConst.cpp">
+      <Filter>소스 파일\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelPy.cpp">
+      <Filter>소스 파일\PythonDll</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelOptimizer.cpp">
+      <Filter>소스 파일\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMoveSImulator.cpp">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyStrokeQueue.cpp">
+      <Filter>소스 파일\KeyStroke</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyStorkeGenerator.cpp">
+      <Filter>소스 파일\KeyStroke</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveSimulator.cpp">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="fastThinker.cpp">
+      <Filter>소스 파일\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>소스 파일\AI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="DlAI.cpp">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAI.cpp">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClCompile>
+    <ClCompile Include="MSVAI.cpp">
+      <Filter>소스 파일\AI\msv</Filter>
+    </ClCompile>
+    <ClCompile Include="Detected.cpp">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoPattern.cpp">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RensaResult.cpp">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClCompile>
+    <ClCompile Include="FormAIv2.cpp">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelHumanAI.cpp">
+      <Filter>소스 파일\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="Plan.cpp">
+      <Filter>소스 파일\AITool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tuyotuyo.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelAIAI.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelHumanAI.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelPPTPC.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelToko.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossFunc.h">
+      <Filter>소스 파일\CrossCompile</Filter>
+    </ClInclude>
+    <ClInclude Include="Detector.h">
+      <Filter>소스 파일\AITool</Filter>
+    </ClInclude>
+    <ClInclude Include="Plan.h">
+      <Filter>소스 파일\AITool</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>소스 파일\AITool</Filter>
+    </ClInclude>
+    <ClInclude Include="Duel.h">
+      <Filter>소스 파일\Duel\DuelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>소스 파일\Duel\DuelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="XboxController.h">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemory.h">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoTsumo.h">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoConst.h">
+      <Filter>소스 파일\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelOptimizer.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMoveSImulator.h">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyStorkeGenerator.h">
+      <Filter>소스 파일\KeyStroke</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSimulator.h">
+      <Filter>소스 파일\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>소스 파일\AI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="DlAI.h">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveAI.h">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClInclude>
+    <ClInclude Include="Detected.h">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoPattern.h">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RensaResult.h">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatorNode.h">
+      <Filter>소스 파일\AITool\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>소스 파일\Connector\ConnectorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="FormAIv2.h">
+      <Filter>소스 파일\AI\tac</Filter>
+    </ClInclude>
+    <ClInclude Include="MSVAI.h">
+      <Filter>소스 파일\AI\msv</Filter>
+    </ClInclude>
+    <ClInclude Include="Openbook.h">
+      <Filter>소스 파일\AITool</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyStrokeQueue.h">
+      <Filter>소스 파일\KeyStroke</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanTest.h">
+      <Filter>소스 파일\AITool</Filter>
+    </ClInclude>
+    <ClInclude Include="fastThinker.h">
+      <Filter>소스 파일\Duel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
